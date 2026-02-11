@@ -8,7 +8,7 @@ const CONFIG = {
 
     floatingEmojis: {
         hearts: ['❤️', '💖', '💝', '💗', '💓'],   // Heart emojis
-        extras: ['✨', '🌸', '🍫']                  // Stars, flowers, chocolates
+        extras: ['❤️', '💖', '💝', '💗', '💓']    // Stars, flowers, chocolates
     },
 
     // Updated Questions
