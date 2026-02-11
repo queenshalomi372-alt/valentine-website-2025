@@ -7,8 +7,8 @@ const CONFIG = {
     pageTitle: "Will You Be My Valentine baby? 💝",
 
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],   // Heart emojis
-        extras: ['❤️', '💖', '💝', '💗', '💓']    // Fun face emojis
+        hearts: ['❤️', '💖', '💝', '💗', '💓'],
+        extras: ['❤️', '💖', '💝', '💗', '💓']
     },
 
     // Questions
@@ -71,10 +71,23 @@ const CONFIG = {
         enabled: true,
         autoplay: true,
         musicUrl: "https://res.cloudinary.com/dbak1uki7/video/upload/v1770828545/Kannukulla_efqtuk.mp3",
-        startText: "🎵 Play Music",
-        stopText: "🔇 Stop Music",
         volume: 0.5
     }
 };
 
 window.VALENTINE_CONFIG = CONFIG;
+
+// ============================================
+// 💖 MUSIC AUTOPLAY SCRIPT 💖
+// ============================================
+window.addEventListener('DOMContentLoaded', () => {
+    if (CONFIG.music.enabled) {
+        const audio = new Audio(CONFIG.music.musicUrl);
+        audio.volume = CONFIG.music.volume;
+        audio.loop = true;
+        audio.play().catch(err => {
+            console.warn("Autoplay blocked by browser:", err);
+        });
+    }
+});
+
