@@ -43,7 +43,7 @@ const CONFIG = {
     },
 
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
+        title: "Yay! I'm the luckiest person in the world!",
         message: "Now come get your gift, a big warm hug and a kutty kiss!",
     },
 
