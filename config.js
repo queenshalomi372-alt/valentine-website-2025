@@ -4,7 +4,7 @@
 
 const CONFIG = {
     valentineName: "Enu",
-    pageTitle: "Will You Be My Valentine? 💝",
+    pageTitle: "Will You Be My Valentine baby? 💝",
 
     floatingEmojis: {
         hearts: ['❤️', '💖', '💝', '💗', '💓'],   // Heart emojis
@@ -16,7 +16,7 @@ const CONFIG = {
         first: {
             text: "When did you first start liking me? 😊",
             yesBtn: "From the start 💕",
-            noBtn: "Later 😌",
+            noBtn: "Later 🙃",
             secretAnswer: "Honestly… I fell for you instantly ❤️ (Mn oyata kamathi. Karanna deyak nh mn oyata kamathi)"
         },
         second: {
@@ -26,7 +26,7 @@ const CONFIG = {
         },
         third: {
             text: "Am I romantic? 🥰💝",
-            yesBtn: "Need improvement 😜",
+            yesBtn: "Need improvement 😜 (Innum konjam improve pannanum)",
             noBtn: "Very romantic ❤️"
         },
         fourth: {
