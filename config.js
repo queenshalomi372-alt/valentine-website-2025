@@ -14,10 +14,10 @@ const CONFIG = {
     // Updated Questions
     questions: {
         first: {
-            text: "When did you first start liking me? 😊",
-            yesBtn: "From the start 💕",
-            noBtn: "Later 🙃",
-            secretAnswer: "Honestly… I fell for you instantly ❤️ (Mn oyata kamathi. Karanna deyak nh mn oyata kamathi)"
+            text: "Do you like me?",                                    // First interaction
+            yesBtn: "Yes",                                             // Text for "Yes" button
+            noBtn: "No",                                               // Text for "No" button
+            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
         },
         second: {
             text: "How much do you love me? ❤️",
