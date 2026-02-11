@@ -26,8 +26,8 @@ const CONFIG = {
         },
         third: {
             text: "Am I romantic? 🥰💝",
-            yesBtn: "Need improvement 😜 (Innum konjam improve pannanum)",
-            noBtn: "Very romantic ❤️"
+            noBtn: "Very romantic ❤️",
+            yesBtn: "Innum konjam improve pannanum 😜"
         },
         fourth: {
             text: "Will you stay with me forever? 💍",
