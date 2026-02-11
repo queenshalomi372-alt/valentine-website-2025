@@ -7,10 +7,11 @@ const CONFIG = {
     pageTitle: "Will You Be My Valentine? 💝",
 
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],
-        extras: ['✨', '🌸', '🍫']
+        hearts: ['❤️', '💖', '💝', '💗', '💓'],   // Heart emojis
+        extras: ['✨', '🌸', '🍫']                  // Stars, flowers, chocolates
     },
 
+    // Updated Questions
     questions: {
         first: {
             text: "When did you first start liking me? 😊",
@@ -32,11 +33,6 @@ const CONFIG = {
             text: "Will you stay with me forever? 💍",
             yesBtn: "Always ❤️",
             noBtn: "Still thinking 😜"
-        },
-        fifth: {
-            text: "Do you want a gift? 🎁",
-            yesBtn: "Yes, please! 💝",
-            noBtn: "Maybe later 😅"
         }
     },
 
@@ -48,8 +44,7 @@ const CONFIG = {
 
     celebration: {
         title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!"
-        // emojis removed as requested
+        message: "Now come get your gift, a big warm hug and a kutty kiss!",
     },
 
     colors: {
@@ -79,8 +74,3 @@ const CONFIG = {
 
 window.VALENTINE_CONFIG = CONFIG;
 
-        volume: 0.5
-    }
-};
-
-window.VALENTINE_CONFIG = CONFIG;
