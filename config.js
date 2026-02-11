@@ -1,76 +1,29 @@
-// ============================================
-// 💝 CUSTOMIZE YOUR VALENTINE'S WEBSITE HERE 💝
-// ============================================
-
-const CONFIG = {
-    valentineName: "Enu",
-    pageTitle: "Will You Be My Valentine baby? 💝",
-
-    floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],   // Heart emojis
-        extras: ['❤️', '💖', '💝', '💗', '💓']    // Stars, flowers, chocolates
+questions: {
+    first: {
+        text: "Do you like me?",
+        yesBtn: "Yes",
+        noBtn: "No",
+        secretAnswer: "I don't like you, I love you! ❤️"
     },
-
-    // Updated Questions
-    questions: {
-        first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
-        },
-        second: {
-            text: "How much do you love me? ❤️",
-            startText: "This much!",
-            nextBtn: "Next 💖"
-        },
-        third: {
-            text: "Am I romantic? 🥰💝",
-            noBtn: "Very romantic ❤️",
-            yesBtn: "Innum konjam improve pannanum 😜"
-        },
-        fourth: {
-            text: "Will you stay with me forever? 💍",
-            yesBtn: "Always ❤️",
-            noBtn: "Still thinking 😜"
-        }
+    second: {
+        text: "How much do you love me? ❤️",
+        startText: "This much!",
+        nextBtn: "Next 💖"
     },
-
-    loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",
-        high: "To infinity and beyond! 🚀💝",
-        normal: "And beyond! 🥰"
+    third: {
+        text: "Am I romantic? 🥰💝",
+        noBtn: "Very romantic ❤️",
+        yesBtn: "Innum konjam improve pannanum 😜"
     },
-
-    celebration: {
-        title: "Yay! I'm the luckiest person in the world!",
-        message: "Come get a tight hug 🤗 and a sweet kiss 😘… you’ve got a little gift today 🎁. Will see 😉. Love you so much ❤️!",
+    fourth: {
+        text: "Will you stay with me forever? 💍",
+        yesBtn: "Always ❤️",
+        noBtn: "Still thinking 🤪"
     },
-
-    colors: {
-        backgroundStart: "#ffafbd",
-        backgroundEnd: "#ffc3a0",
-        buttonBackground: "#ff6b6b",
-        buttonHover: "#ff8787",
-        textColor: "#ff4757"
-    },
-
-    animations: {
-        floatDuration: "15s",
-        floatDistance: "50px",
-        bounceSpeed: "0.5s",
-        heartExplosionSize: 1.5
-    },
-
-    music: {
-        enabled: true,
-        autoplay: true,
-        musicUrl: "https://res.cloudinary.com/dbak1uki7/video/upload/v1770828545/Kannukulla_efqtuk.mp3",
-        startText: "🎵 Play Music",
-        stopText: "🔇 Stop Music",
-        volume: 0.5
+    fifth: {   // Fifth question without secretAnswer
+        text: "Will you be my Valentine? 🌹",
+        yesBtn: "Yes, of course! 💖",
+        noBtn: "Hmm… maybe 😅"
     }
-};
-
-window.VALENTINE_CONFIG = CONFIG;
+}
 
