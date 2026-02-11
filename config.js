@@ -44,7 +44,7 @@ const CONFIG = {
 
     celebration: {
         title: "Yay! I'm the luckiest person in the world!",
-        message: "Now come get your gift, a tight hug and a kutty kiss!",
+        message: "Come get a tight hug 🤗 and a sweet kiss 😘… you’ve got a little gift today 🎁. Will see 😉. Love you so much ❤️!",
     },
 
     colors: {
