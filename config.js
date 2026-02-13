@@ -4,8 +4,7 @@ pageTitle: "Will You Be My Valentine? 💝" // Browser tab title
 
 // Floating Background Elements
 floatingEmojis: {
-    hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis in background
-    bears: ['🧸', '🐻']                       // Bear emojis in background
+    hearts: ['❤️', '💖', '💝', '💗', '💓']  // Heart emojis in background
 }
 
 // Questions and Buttons
@@ -48,7 +47,7 @@ colors: {
     backgroundEnd: "#ffc3a0",        // Background gradient end
     buttonBackground: "#ff6b6b",     // Button color
     buttonHover: "#ff8787",          // Button hover color
-    textColor: "#ff4757"            // Text color
+    textColor: "#ff4757"             // Text color
 }
 
 // Animation Settings
