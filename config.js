@@ -15,8 +15,8 @@ const CONFIG = {
     questions: {
         first: {
             text: "Do you like me?",
-            yesBtn: "Yes 😄",
-            noBtn: "No 😅",
+            yesBtn: "Yes 🙂",
+            noBtn: "No 🙃",
             secretAnswer: "I don't like you, I love you! ❤️"
         },
         second: {
@@ -65,29 +65,7 @@ const CONFIG = {
         floatDistance: "50px",
         bounceSpeed: "0.5s",
         heartExplosionSize: 1.5
-    },
-
-    music: {
-        enabled: true,
-        autoplay: true,
-        musicUrl: "https://res.cloudinary.com/dbak1uki7/video/upload/v1770828545/Kannukulla_efqtuk.mp3",
-        volume: 0.5
     }
 };
 
 window.VALENTINE_CONFIG = CONFIG;
-
-// ============================================
-// 💖 MUSIC AUTOPLAY SCRIPT 💖
-// ============================================
-window.addEventListener('DOMContentLoaded', () => {
-    if (CONFIG.music.enabled) {
-        const audio = new Audio(CONFIG.music.musicUrl);
-        audio.volume = CONFIG.music.volume;
-        audio.loop = true;
-        audio.play().catch(err => {
-            console.warn("Autoplay blocked by browser:", err);
-        });
-    }
-});
-
