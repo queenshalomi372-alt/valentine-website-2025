@@ -1,91 +1,70 @@
-// ============================================
-// 💝 VALENTINE'S DAY WEBPAGE CONFIG 💝
-// ============================================
+// Basic Information
+valentineName: "Enu"                    // Your Valentine's name
+pageTitle: "Will You Be My Valentine? 💝" // Browser tab title
 
-const CONFIG = {
-    // Basic Information
-    valentineName: "Enu",                     // Your Valentine's name
-    pageTitle: "Will You Be My Valentine? 💝", // Browser tab title
+// Floating Background Elements
+floatingEmojis: {
+    hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis in background
+    bears: ['🧸', '🐻']                       // Bear emojis in background
+}
 
-    // Floating Background Elements
-    floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'] // Only heart emojis
+// Questions and Buttons
+questions: {
+    first: {
+        text: "Do you like me?",                   // First question
+        yesBtn: "Yes",                             // Yes button text
+        noBtn: "No",                               // No button text
+        secretAnswer: "I don't like you, I love you! ❤️"  // Hidden message
     },
-
-    // Questions and Buttons
-    questions: {
-        first: {
-            text: "Do you like me?",
-            yesBtn: "Yes",
-            noBtn: "No",
-            secretAnswer: "I don't like you, I love you! ❤️"
-        },
-        second: {
-            text: "How much do you love me?",
-            startText: "This much!",
-            nextBtn: "Next ❤️"
-        },
-        third: {
-            text: "Am I romantic? 🥰💝",
-            yesBtn: "Innum konjam improve pannanum 😜",
-            noBtn: "Very romantic 😍"
-        },
-        fourth: {
-            text: "You are my ............. ❤️",
-            yesBtn: "Panni kutty 🐷💕",
-            noBtn: "Chella kutty 🥰💖"
-        },
-        fifth: {
-            text: "Will you stay with me forever? 💍",
-            yesBtn: "Always ❤️",
-            noBtn: "Still thinking 🤔"
-        },
-        sixth: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹",
-            yesBtn: "Yes, of course! 🥰😍",
-            noBtn: "Hmm… maybe 😅😏"
-        }
+    second: {
+        text: "How much do you love me?",          // Second question
+        startText: "This much!",                   // Text before percentage
+        nextBtn: "Next ❤️"                         // Next button text
     },
-
-    // Love Meter Messages
-    loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Above 5000%
-        high: "To infinity and beyond! 🚀💝",              // Above 1000%
-        normal: "And beyond! 🥰"                           // Above 100%
-    },
-
-    // Final Celebration
-    celebration: {
-        title: "Yay! I'm the luckiest person...",
-        message: "Now come get your gift and a tight hug! 🥰",
-        emojis: "❤️💖💝💗💓" // Only hearts
-    },
-
-    // Website Colors
-    colors: {
-        backgroundStart: "#ffafbd",
-        backgroundEnd: "#ffc3a0",
-        buttonBackground: "#ff6b6b",
-        buttonHover: "#ff8787",
-        textColor: "#ff4757"
-    },
-
-    // Animation Settings
-    animations: {
-        floatDuration: "15s",
-        floatDistance: "50px",
-        bounceSpeed: "0.5s",
-        heartExplosionSize: 1.5
-    },
-
-    // Music Settings
-    music: {
-        enabled: true,
-        autoplay: true,
-        musicUrl: "YOUR_CLOUDINARY_URL_HERE", // Replace with your actual music file URL
-        startText: "🎵 Play Music",
-        stopText: "🔇 Stop Music",
-        volume: 0.5
+    third: {
+        text: "Will you be my Valentine...?",      // Final question
+        yesBtn: "Yes!",                            // Yes button text
+        noBtn: "No"                                // No button text
     }
-};
+}
 
+// Love Meter Messages
+loveMessages: {
+    extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows above 5000%
+    high: "To infinity and beyond! 🚀💝",              // Shows above 1000%
+    normal: "And beyond! 🥰"                           // Shows above 100%
+}
+
+// Final Celebration
+celebration: {
+    title: "Yay! I'm the luckiest person...",     // Celebration title
+    message: "Now come get your gift...",          // Celebration message
+    emojis: "🎁💖🤗💝💋❤️💕"                        // Celebration emojis
+}
+
+// Website Colors
+colors: {
+    backgroundStart: "#ffafbd",      // Background gradient start
+    backgroundEnd: "#ffc3a0",        // Background gradient end
+    buttonBackground: "#ff6b6b",     // Button color
+    buttonHover: "#ff8787",          // Button hover color
+    textColor: "#ff4757"            // Text color
+}
+
+// Animation Settings
+animations: {
+    floatDuration: "15s",           // How long hearts float (10-20s)
+    floatDistance: "50px",          // Sideways movement (30-70px)
+    bounceSpeed: "0.5s",            // Bounce animation speed (0.3-0.7s)
+    heartExplosionSize: 1.5         // Final heart explosion size (1.2-2.0)
+}
+
+// Music Settings
+music: {
+    enabled: true, // Music feature is enabled
+    autoplay: true, // Try to autoplay (note: some browsers may block this)
+    musicUrl: "YOUR_CLOUDINARY_URL_HERE", // Paste your music URL here
+    startText: "🎵 Play Music", // Button text to start music
+    stopText: "🔇 Stop Music", // Button text to stop music
+    volume: 0.5 // Volume level (0.0 to 1.0)
+}
