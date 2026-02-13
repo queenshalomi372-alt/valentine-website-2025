@@ -30,11 +30,16 @@ const CONFIG = {
             yesBtn: "Innum konjam improve pannanum 😜"
         },
         fourth: {
+            text: "You are my ............. ❤️",
+            yesBtn: "Panni kutty 🐷💕",
+            noBtn: "Chellak kutty 🥰💖"
+        },
+        fifth: {
             text: "Will you stay with me forever? 💍",
             yesBtn: "Always ❤️",
             noBtn: "Still thinking 🤔"
         },
-        fifth: {
+        sixth: {
             text: "Will you be my Valentine on February 14th, 2025? 🌹",
             yesBtn: "Yes, of course! 🥰😍",
             noBtn: "Hmm… maybe 😅😏"
@@ -43,27 +48,8 @@ const CONFIG = {
 
     loveMessages: {
         extreme: "WOOOOW You love me that much?? 🥰🚀💝",
-        high: "To infinity and beyond! 🚀💝",
-        normal: "And beyond! 🥰"
-    },
+        high: "To infi
 
-    celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🥰",
-        message: "Come get a tight hug 🤗 and a sweet kiss 😘… you’ve got a little gift today 🎁. Will see 😉. Love you so much ❤️!"
-    },
-
-    colors: {
-        backgroundStart: "#ffafbd",
-        backgroundEnd: "#ffc3a0",
-        buttonBackground: "#ff6b6b",
-        buttonHover: "#ff8787",
-        textColor: "#ff4757"
-    },
-
-    animations: {
-        floatDuration: "15s",
-        floatDistance: "50px",
-        bounceSpeed: "0.5s",
         heartExplosionSize: 1.5
     }
 };
