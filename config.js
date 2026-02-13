@@ -3,9 +3,11 @@
 // ============================================
 
 const CONFIG = {
+    // Basic Information
     valentineName: "Enu",
     pageTitle: "Will You Be My Valentine baby? 💝",
 
+    // Floating Background Elements
     floatingEmojis: {
         hearts: ['❤️', '💖', '💝', '💗', '💓'],
         extras: ['❤️', '💖', '💝', '💗', '💓']
@@ -26,8 +28,8 @@ const CONFIG = {
         },
         third: {
             text: "Am I romantic? 🥰💝",
-            noBtn: "Very romantic 😍",
-            yesBtn: "Innum konjam improve pannanum 😜"
+            yesBtn: "Innum konjam improve pannanum 😜",
+            noBtn: "Very romantic 😍"
         },
         fourth: {
             text: "You are my ............. ❤️",
@@ -46,11 +48,45 @@ const CONFIG = {
         }
     },
 
+    // Love Meter Messages
     loveMessages: {
         extreme: "WOOOOW You love me that much?? 🥰🚀💝",
-        high: "To infi
+        high: "To infinity and beyond! 🚀💝",
+        normal: "And beyond! 🥰"
+    },
 
+    // Final Celebration
+    celebration: {
+        title: "Yay! I'm the luckiest person...",
+        message: "Now come get your gift...",
+        emojis: "🎁💖🤗💝💋❤️💕"
+    },
+
+    // Website Colors
+    colors: {
+        backgroundStart: "#ffafbd",
+        backgroundEnd: "#ffc3a0",
+        buttonBackground: "#ff6b6b",
+        buttonHover: "#ff8787",
+        textColor: "#ff4757"
+    },
+
+    // Animation Settings
+    animations: {
+        floatDuration: "15s",
+        floatDistance: "50px",
+        bounceSpeed: "0.5s",
         heartExplosionSize: 1.5
+    },
+
+    // Music Settings
+    music: {
+        enabled: true,
+        autoplay: true,
+        musicUrl: "YOUR_CLOUDINARY_URL_HERE",
+        startText: "🎵 Play Music",
+        stopText: "🔇 Stop Music",
+        volume: 0.5
     }
 };
 
