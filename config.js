@@ -1,30 +1,29 @@
 // ============================================
-// 💝 CUSTOMIZE YOUR VALENTINE'S WEBSITE HERE 💝
+// 💝 VALENTINE'S DAY WEBPAGE CONFIG 💝
 // ============================================
 
 const CONFIG = {
     // Basic Information
-    valentineName: "Enu",
-    pageTitle: "Will You Be My Valentine baby? 💝",
+    valentineName: "Enu",                     // Your Valentine's name
+    pageTitle: "Will You Be My Valentine? 💝", // Browser tab title
 
     // Floating Background Elements
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],
-        extras: ['❤️', '💖', '💝', '💗', '💓']
+        hearts: ['❤️', '💖', '💝', '💗', '💓'] // Only heart emojis
     },
 
-    // Questions
+    // Questions and Buttons
     questions: {
         first: {
             text: "Do you like me?",
-            yesBtn: "Yes 🙂",
-            noBtn: "No 🙃",
+            yesBtn: "Yes",
+            noBtn: "No",
             secretAnswer: "I don't like you, I love you! ❤️"
         },
         second: {
-            text: "How much do you love me? ❤️",
-            startText: "This much! 🥰",
-            nextBtn: "Next 💖"
+            text: "How much do you love me?",
+            startText: "This much!",
+            nextBtn: "Next ❤️"
         },
         third: {
             text: "Am I romantic? 🥰💝",
@@ -34,7 +33,7 @@ const CONFIG = {
         fourth: {
             text: "You are my ............. ❤️",
             yesBtn: "Panni kutty 🐷💕",
-            noBtn: "Chellak kutty 🥰💖"
+            noBtn: "Chella kutty 🥰💖"
         },
         fifth: {
             text: "Will you stay with me forever? 💍",
@@ -50,16 +49,16 @@ const CONFIG = {
 
     // Love Meter Messages
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",
-        high: "To infinity and beyond! 🚀💝",
-        normal: "And beyond! 🥰"
+        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Above 5000%
+        high: "To infinity and beyond! 🚀💝",              // Above 1000%
+        normal: "And beyond! 🥰"                           // Above 100%
     },
 
     // Final Celebration
     celebration: {
         title: "Yay! I'm the luckiest person...",
-        message: "Now come get your gift...",
-        emojis: "🎁💖🤗💝💋❤️💕"
+        message: "Now come get your gift and a tight hug! 🥰",
+        emojis: "❤️💖💝💗💓" // Only hearts
     },
 
     // Website Colors
@@ -83,11 +82,10 @@ const CONFIG = {
     music: {
         enabled: true,
         autoplay: true,
-        musicUrl: "YOUR_CLOUDINARY_URL_HERE",
+        musicUrl: "YOUR_CLOUDINARY_URL_HERE", // Replace with your actual music file URL
         startText: "🎵 Play Music",
         stopText: "🔇 Stop Music",
         volume: 0.5
     }
 };
 
-window.VALENTINE_CONFIG = CONFIG;
